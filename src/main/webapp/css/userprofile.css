@@ -1,0 +1,274 @@
+@charset "ISO-8859-1";
+
+/*Home page CSS styles IT22569318 Oshan Lahiru ................*/
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body container styles................*/
+
+.container {
+
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) url(../images/hotel5.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+  
+}
+
+header {
+
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hotel5.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/* web site logo styles................*/
+
+#logo {
+
+    width: 113px;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+
+}
+
+.logo h1{
+
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+/* nav bar styles................*/
+
+nav {
+
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px !important;
+    position: relative;
+
+}
+
+
+nav ul li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(236, 240, 240);
+
+
+}
+
+nav ul li img {
+
+    width: 30px;
+
+}
+
+/* create a hidden line for hover effect................*/
+
+nav ul li::after {
+
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    bottom: -5px;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+
+/* create hover effect................*/
+
+nav ul li:hover::after {
+
+    width: 100%;
+
+}
+
+.body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom:20px;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(../images/hotel1.jpg);
+    background-position: center;
+    background-size: cover; /* Placeholder color */
+    position: absolute;
+    top: 100px;
+    left: 122px;
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 130px;
+    right: 71%;
+}
+
+.profile-details {
+    width: 98%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    position: absolute;
+    top: 200px;
+}
+
+.profile-details th, .profile-details td {
+    padding: 8px 10px;
+    border-bottom: 10px solid #ddd;
+   
+
+}
+
+.profile-details th {
+    background-color: #f5f5f5;
+    width: 20%;
+    text-align: center;
+}
+
+.profile-details tr {
+    width: 20%;
+    text-align: left;
+}
+
+.profile-update{
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.profile-update a{
+
+    text-decoration: none;
+
+}
+
+.hline{
+
+    width: 95%;
+    margin-top: 20px;
+    background-color: rgb(3, 3, 3);
+    position: absolute;
+    height: 2px;
+    top: 130%;
+}
+
+.c-details {
+    width: 98%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    position: absolute;
+    top: 131%;
+}
+
+.c-details th, .c-details td {
+    padding: 8px 10px;
+    border-bottom: 10px solid #ddd;
+   
+
+}
+
+.c-details th {
+    background-color: #f5f5f5;
+    width: 20%;
+    text-align: center;
+}
+
+.c-details tr {
+    width: 20%;
+    text-align: left;
+}
+
+.booking-update{
+
+    margin:10px 0;
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.Payment-update{
+
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.booking-update a{
+
+    text-decoration: none;
+
+}
+.Payment-update a{
+
+    text-decoration: none;
+
+}
+
+
+
