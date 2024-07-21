@@ -8,23 +8,23 @@ The Hotel Reservation System is designed to streamline the process of managing h
 
 # Features
 
-**1.User Management:** Create, update, and delete user profiles.
+**1. User Management:** Create, update, and delete user profiles.
 
-**2.Room Booking:** Search for available rooms and make reservations.
+**2. Room Booking:** Search for available rooms and make reservations.
 
-**Reservation Management:** View, update, and cancel reservations.
+**3. Reservation Management:** View, update, and cancel reservations.
 
-**Admin Panel:** Manage hotel details, rooms, and reservations.
+**4. Admin Panel:** Manage hotel details, rooms, and reservations.
 
-**Database Integration:** Utilizes SQL for data storage and retrieval.
+**5. Database Integration:** Utilizes SQL for data storage and retrieval.
 
 # Technologies Used
-**Java:** Core language for the application.
+**1. Java:** Core language for the application.
 
-**MVC Architecture:** Separates the application into  three interconnected components to manage internal representations user input, and user interface.
+**2. MVC Architecture:** Separates the application into  three interconnected components to manage internal representations user input, and user interface.
 
-**MySQL:** For database operations.
+**3. MySQL:** For database operations.
 
-**JDBC:** For connecting and executing SQL queries from Java.
+**4. JDBC:** For connecting and executing SQL queries from Java.
 
-**Server:** Tomcat Server/ V 9.0
+**5. Server:** Tomcat Server/ V 9.0
